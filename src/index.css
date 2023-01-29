@@ -1,0 +1,23 @@
+:root {
+    --main-width: 180px;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  textarea {
+    height: 210px;
+    border: none;
+  }
+  
+  body > * {
+    width: var(--main-width);
+    margin: 5px;
+  }
